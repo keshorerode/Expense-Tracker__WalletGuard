@@ -173,9 +173,7 @@ function TransactionsTable({transactions , addTransaction , fetchTransactions}) 
               width: "400px",
             }}
           >
-            <button className='btn' >
-              Email
-            </button>
+            
             <button className="btn" onClick={exportCSV}>
               Export to CSV
             </button>
